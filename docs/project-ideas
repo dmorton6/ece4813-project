@@ -1,5 +1,5 @@
-Map task (e.g. using Google Maps API)
-PageRank
-Customer recommendation
-TSP
-data compression (audio or HTML)
+Overall idea:
+Book recommendations
+
+How to implement this as a directed acyclic graph:
+(more to follow)
