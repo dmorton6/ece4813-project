@@ -1,7 +1,0 @@
-From the T-square announcement:
-
-All teams will present on Thu, April 2 for 6-8 minutes describing:
-- Problem selected
-- Dataset selected or plan to use synthetic data
-- Use cases and example queries
-- Implementation plan and timeline
