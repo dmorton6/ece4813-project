@@ -1,0 +1,17 @@
+{
+  "name": "song-recommendations",
+  "version": "1.0.0",
+  "description": "Song recommendation project for ECE4813.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express3-handlebars": "^0.5.2",
+    "mongodb": "^2.0.27",
+    "mongojs": "^0.18.2"
+  }
+}

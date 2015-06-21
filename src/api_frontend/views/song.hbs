@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>ECE4813 Song Recommendations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <header class="text-center">
+        <h1>ECE4813 Song Recommenations</h1>
+      </header>
+    </div>
+  </div>
+  <div class="container">
+    <h2>{{song.name}}</h2>
+    <h3><i class="fa fa-user"></i>&nbsp; Artist: {{song.artist}}</h3>
+    <h3><i class="fa fa-clock-o"></i>&nbsp; Year: {{song.year}}</h3>
+    <hr>
+    <p>Similar songs</p>
+    <div class="list-group">
+      {{#each song.similar}} 
+        <a href="/songs/{{this._id}}" class="list-group-item">{{this.name}}</a>
+      {{/each}}
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

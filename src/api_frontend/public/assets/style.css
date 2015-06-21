@@ -1,0 +1,22 @@
+header {
+  height: 100px;
+  color: white;
+  background: #b4df5b; /* Old browsers */
+  background: -moz-linear-gradient(left,  #b4df5b 0%, #77d657 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b4df5b), color-stop(100%,#77d657)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #b4df5b 0%,#77d657 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #b4df5b 0%,#77d657 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #b4df5b 0%,#77d657 100%); /* IE10+ */
+  background: linear-gradient(to right,  #b4df5b 0%,#77d657 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#77d657',GradientType=1 ); /* IE6-9 */
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
